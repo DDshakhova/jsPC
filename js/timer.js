@@ -1,4 +1,5 @@
-const daysBlock = document.querySelector('.timer__days')
+const timer = () => {
+    const daysBlock = document.querySelector('.timer__days')
 const hoursBlock = document.querySelector('.timer__hours')
 const minutesBlock = document.querySelector('.timer__minutes')
 const secondsBlock = document.querySelector('.timer__seconds')
@@ -65,3 +66,5 @@ interval = setInterval(updateTimer, 500)
 
 
 
+
+}
